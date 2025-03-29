@@ -1,0 +1,9 @@
+{
+    "name": "Primer NFT Test",
+    "description": "Pokemonstruo tortuga bebé",
+    "image": "https://cdn.jsdelivr.net/gh/Gera-Gal/nft-cdn@main/img/tortuga_1.png",
+    "attributes": [
+        {"trait_type": "Rareza", "value": "Épica"},
+        {"trait_type": "Poder", "value": 75}
+    ]
+}
