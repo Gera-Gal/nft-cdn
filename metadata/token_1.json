@@ -28,6 +28,6 @@
   "document_signature": {
     "algorithm": "RSA2048",
     "encryption": "<llave-publica-del-propietario>",
-    "payload": "<hash-de-escritura-pdf-tras-firma-y-cifrado>"
+    "payload": "<hash-de-escritura-pdf-tras-firma-cifrado-y-guardado-en-ipfs>"
   }
 }
