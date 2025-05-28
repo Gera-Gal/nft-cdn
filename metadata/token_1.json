@@ -1,0 +1,33 @@
+{
+  "name": "Título de Propiedad de Green Land",
+  "description": "Título de propiedad tokenizado en representación de un terreno verde.",
+  "image": "ipfs://<hash-de-imagen-o-miniatura>",
+  "external_url": "https://greenland.example.com/titulos/1",
+  "attributes": [
+    {
+      "trait_type": "Ubicación",
+      "value": "Oaxaca, México"
+    },
+    {
+      "trait_type": "Superficie",
+      "value": "3.5 hectáreas"
+    },
+    {
+      "trait_type": "Coordenadas",
+      "value": "17.0732° N, 96.7266° W"
+    },
+    {
+      "trait_type": "Uso de suelo",
+      "value": "Agrícola Orgánico"
+    },
+    {
+      "trait_type": "Fecha de emisión",
+      "value": "2025-05-28"
+    }
+  ],
+  "document_signature": {
+    "algorithm": "RSA2048",
+    "encryption": "publicKey-of-holder",
+    "payload": "0x9d3e...fa7c" 
+  }
+}
