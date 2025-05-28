@@ -1,0 +1,33 @@
+{
+  "name": "Título de Propiedad de Green Land",
+  "description": "Título de propiedad tokenizado en representación de un terreno verde.",
+  "image": "ipfs://<hash-de-imagen-o-miniatura>",
+  "external_url": "https://greenland.example.com/titulos/1",
+  "attributes": [
+    {
+      "trait_type": "Ubicación",
+      "value": "<ubicacion>"
+    },
+    {
+      "trait_type": "Superficie",
+      "value": "<superficie>"
+    },
+    {
+      "trait_type": "Coordenadas",
+      "value": "<coordenadas>"
+    },
+    {
+      "trait_type": "Uso de suelo",
+      "value": "<uso>"
+    },
+    {
+      "trait_type": "Fecha de emisión",
+      "value": "<fecha>"
+    }
+  ],
+  "document_signature": {
+    "algorithm": "RSA2048",
+    "encryption": "<llave-publica-del-propietario>",
+    "payload": "<hash-de-escritura-pdf-tras-firma-y-cifrado>"
+  }
+}
