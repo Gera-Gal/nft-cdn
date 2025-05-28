@@ -1,0 +1,37 @@
+{
+  "name": "Retorno de inversión - Green Token",
+  "description": "Token fungible que representa el retorno económico por la explotación agrícola de tierras verdes tokenizadas.",
+  "image": "ipfs://<hash-de-imagen-opcional>",
+  "external_url": "https://greenland.example.com/retornos/2025-Q1",
+  "attributes": [
+    {
+      "trait_type": "Período",
+      "value": "<periodo>"
+    },
+    {
+      "trait_type": "Área Productiva",
+      "value": "<area>"
+    },
+    {
+      "trait_type": "Ubicación",
+      "value": "<ubicacion>"
+    },
+    {
+      "trait_type": "Rendimiento por hectárea",
+      "value": "<rendimiento>"
+    },
+    {
+      "trait_type": "Ingreso bruto",
+      "value": "<ingreso>"
+    },
+    {
+      "trait_type": "Tokens distribuidos",
+      "value": "<tokens>"
+    }
+  ],
+  "payout_proof": {
+    "algorithm": "RSA2048",
+    "encryption": "<llave-publica-de-la-empresa>",
+    "payload": "<hash-de-reporte-pdf-tras-firma-cifrado-y-guardado-en-ipfs>"
+  }
+}
